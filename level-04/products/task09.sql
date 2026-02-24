@@ -1,1 +1,2 @@
-UPDATE products SET status = 'inactive' WHERE name ILIKE '%old%';
+DELETE FROM products 
+WHERE name LIKE 'Test%';

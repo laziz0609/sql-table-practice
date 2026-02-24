@@ -1,1 +1,1 @@
-UPDATE users SET status = 'blocked' WHERE login_attempts >= 5;
+DELETE FROM users WHERE birth_date IS NULL;

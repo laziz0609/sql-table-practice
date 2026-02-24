@@ -1,2 +1,1 @@
-UPDATE products SET status = 'inactive'
-WHERE stock_quantity BETWEEN 1 AND 5;
+DELETE FROM products  WHERE created_at BETWEEN '2019-01-01' AND '2019-12-31';

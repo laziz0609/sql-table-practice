@@ -1,5 +1,5 @@
-UPDATE products SET discount_price = price * 0.8
+DELETE FROM products 
 WHERE id in(
     SELECT id FROM products
-    ORDER BY price DESC LIMIT 3
+    ORDER by price LIMIT 3
 );

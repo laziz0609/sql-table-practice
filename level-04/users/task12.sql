@@ -1,6 +1,2 @@
-UPDATE users SET status  = 'active'
-WHERE id in(
-    SELECT id FROM users
-    WHERE status = 'pending'
-    LIMIT 10
-);
+DELETE FROM users
+WHERE login_attempts BETWEEN 5 AND 10 AND status = 'blocked';

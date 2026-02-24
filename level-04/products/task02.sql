@@ -1,1 +1,1 @@
-UPDATE products SET price = 100 WHERE id = 5;
+DELETE FROM products WHERE stock_quantity = 0;

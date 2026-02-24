@@ -1,1 +1,1 @@
-UPDATE users SET is_verified = true WHERE email = 'user@example.com';
+DELETE FROM users WHERE last_login_at IS NULL;

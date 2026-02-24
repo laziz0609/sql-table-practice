@@ -1,9 +1,0 @@
-SELECT * FROM products
-WHERE ORDER BY created_at LIMIT 25;
-
-SELECT * FROM products
-WHERE ORDER BY created_at LIMIT 25 OFFSET 25;
-
-
-SELECT * FROM products
-WHERE ORDER BY created_at LIMIT 25 OFFSET 50;

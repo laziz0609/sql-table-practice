@@ -1,1 +1,1 @@
-UPDATE products SET is_featured = true WHERE price > 1000;
+DELETE FROM products WHERE created_at < '2021-01-01';

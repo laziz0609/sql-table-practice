@@ -1,1 +1,1 @@
-UPDATE users SET phone = '998992870809' WHERE username = 'ali'
+DELETE FROM users WHERE created_at < '2022-01-01';

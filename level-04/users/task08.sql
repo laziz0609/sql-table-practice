@@ -1,1 +1,1 @@
-UPDATE users SET is_verified = true WHERE role IN ('admin', 'manager');
+DELETE FROM users WHERE role IN ('customer') AND status = 'blocked';

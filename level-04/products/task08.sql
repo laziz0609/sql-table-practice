@@ -1,1 +1,2 @@
-UPDATE products SET status = 'archived' WHERE status IN ('inactive', 'draft');
+DELETE FROM products 
+WHERE status IN ('inactive', 'archived') AND stock_quantity = 0;

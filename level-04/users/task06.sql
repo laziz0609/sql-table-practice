@@ -1,1 +1,1 @@
-UPDATE users SET updated_at = now() WHERE status = 'blocked' AND login_attempts = 0;
+DELETE FROM users WHERE status = 'blocked' AND login_attempts >= 10;

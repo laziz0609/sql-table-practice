@@ -1,1 +1,1 @@
-UPDATE users SET status = 'blocked' WHERE created_at BETWEEN '2023-01-01' AND '2023-06-30';
+DELETE FROM users WHERE created_at BETWEEN '2020-01-01' AND '2020-12-31';

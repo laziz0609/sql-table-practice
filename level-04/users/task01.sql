@@ -1,1 +1,1 @@
-UPDATE users SET status = 'active' WHERE username = 'john123';
+DELETE FROM users WHERE username = 'temp_user';

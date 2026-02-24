@@ -1,1 +1,1 @@
-UPDATE products SET discount_price = price-10 WHERE id = 10;
+DELETE FROM products WHERE discount_price IS NULL;

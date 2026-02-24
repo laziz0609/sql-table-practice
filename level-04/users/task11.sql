@@ -1,7 +1,4 @@
-UPDATE users SET is_verified = true 
-WHERE id IN (
-    SELECT id 
-    FROM users 
-    ORDER BY created_at DESC 
-    LIMIT 5
+DELETE FROM users
+WHERE id in (
+    SELECT id FROM users ORDER BY created_at ASC LIMIT 5
 );
