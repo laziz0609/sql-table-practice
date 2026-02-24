@@ -14,7 +14,7 @@ CREATE TYPE product_condition AS ENUM (
 CREATE TABLE products (
     id bigserial NOT NULL PRIMARY KEY,
     name VARCHAR(200) NOT NULL,
-    slug varchar(200) NOT NULL UNIQUE,
+    slug VARCHAR(200) NOT NULL UNIQUE,
     description TEXT,
     price NUMERIC(12, 2) NOT NULL,
     discount_price NUMERIC(12, 2),

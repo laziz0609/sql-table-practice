@@ -1,0 +1,1 @@
+SELECT id, username, email, last_login_at FROM users WHERE last_login_at is NOT NULL;

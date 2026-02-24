@@ -1,0 +1,1 @@
+SELECT name, status FROM products WHERE status = 'active';

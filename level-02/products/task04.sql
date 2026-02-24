@@ -1,0 +1,1 @@
+SELECT name, discount_price FROM products WHERE discount_price is NOT NULL;

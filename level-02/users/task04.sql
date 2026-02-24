@@ -1,0 +1,1 @@
+SELECT id, username, email, is_verified FROM users WHERE is_verified = TRUE;

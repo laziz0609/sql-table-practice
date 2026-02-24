@@ -1,0 +1,1 @@
+SELECT id, username, email, status FROM users WHERE status = 'active';
